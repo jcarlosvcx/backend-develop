@@ -3,6 +3,8 @@ package iterator
 import IIterator
 import java.util.*
 
+//La clase Employee representa la estructura a recorrer,
+// en ella tenemos el nombre del empleado así como el rol al que pertenece, además tiene una lista de empleados los cuales son sus subordinados.
 class Employee(var name: String, var puesto: String, vararg subordinates: Employee?) : IContainer<Employee?> {
     var role: String = ""
     private var subordinates: MutableList<Employee?>

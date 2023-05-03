@@ -1,5 +1,6 @@
 import iterator.Employee
 
+//Clase principal de la aplicación desde la cual probaremos la efectividad del patrón Iterator.
 object TestIterator {
     @JvmStatic
     fun main(args: Array<String>) {
@@ -29,3 +30,6 @@ object TestIterator {
         }
     }
 }
+
+//En la pantalla podremos ver que todos los empleados creados en forma de árbol son recorridos de forma lineal y esto lo hicimos sin saber cómo es que está implementada
+// la estructura de datos internamente, sólo fue necesario crear el iterador e iterar los elementos.
