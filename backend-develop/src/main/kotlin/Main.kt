@@ -1,8 +1,6 @@
 import factorymethod.IDBAdapter
 import factorymethod.MySqlDBAdapter
 import factorymethod.OracleDBAdapter
-import properties.PropertiesUtil
-import java.util.*
 
 fun main() {
 
